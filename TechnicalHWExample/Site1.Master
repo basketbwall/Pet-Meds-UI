@@ -11,8 +11,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <h1 style="color: blue;">Pet Meds</h1>
+        <div class="text-center mw-50">
+            <h1 style="color: blue;"></h1>
             <div style="display:flex;flex-direction:row;justify-content:space-around;width:25%;">
                 <a href="Vet.aspx">Veterinarian</a>
                 <a href="CustomerService.aspx">Customer Service</a>
