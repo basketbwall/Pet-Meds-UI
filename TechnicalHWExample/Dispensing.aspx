@@ -42,6 +42,9 @@
     </div>  </div>
 
 </div>
+        <label for="exampleFormControlTextarea1">Additional Notes For Medication Record</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
 
     <button class="w-100 btn btn-lg btn-success" type="submit">Request Replacement</button>
     <button class="w-100 btn btn-lg btn-success" type="submit">Fill and Ship</button>
