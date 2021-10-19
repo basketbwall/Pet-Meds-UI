@@ -16,6 +16,30 @@
     <a class="dropdown-item" href="#">Something else here</a>
   </div>
 
+        <div class="form-floating">
+    <label "floatingInput">Pet Owner Name</label>
+      <input type="email" readonly class="form-control" id="floatingInput" placeholder="Pet Owner Name">
+    </div>
+    <div class="form-floating">
+              <label for="floatingPassword">Pet Name</label>
+      <input type="password" readonly class="form-control" id="floatingPassword" placeholder="Pet Name">
+    </div>
+        <div class="form-floating">
+              <label for="floatingPassword">Pet DOB</label>
+      <input type="password" readonly class="form-control" id="floatingPassword" placeholder="Pet DOB">
+    </div>
+        <div class="form-floating">
+              <label for="floatingPassword">Medication Name</label>
+      <input type="password" readonly class="form-control" id="floatingPassword" placeholder="Medication Name">
+    </div>
+        <div class="form-floating">
+              <label for="floatingPassword">Medication Strength</label>
+      <input type="password" readonly class="form-control" id="floatingPassword" placeholder="Medication Strength">
+    </div>
+        <div class="form-floating">
+              <label for="floatingPassword">Medication Quantity</label>
+      <input type="password" readonly class="form-control" id="floatingPassword" placeholder="Medication Quantity">
+    </div>  </div>
 
 </div>
 
