@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <div class="w-50">
-    <img class="mb-4" src="Pet Meds Logo.png" alt="" width="300" height="300">
+    <h5>Veterinarian</h5>
     <h1 class="h3 mb-3 fw-normal">Order a Prescription</h1>
 
     <div class="form-floating">
