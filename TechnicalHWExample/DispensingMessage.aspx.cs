@@ -7,11 +7,16 @@ using System.Web.UI.WebControls;
 
 namespace TechnicalHWExample
 {
-    public partial class Site1 : System.Web.UI.MasterPage
+    public partial class DispensingMessage : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("DispensingHome.aspx");
         }
     }
 }

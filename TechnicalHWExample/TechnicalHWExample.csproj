@@ -67,54 +67,109 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="messages.aspx" />
+    <Content Include="assets\bootstrap\css\bootstrap.min.css" />
+    <Content Include="assets\bootstrap\js\bootstrap.min.js" />
+    <Content Include="assets\css\Navigation-with-Button.css" />
+    <Content Include="assets\css\Registration-Form-with-Photo.css" />
+    <Content Include="assets\css\styles.css" />
+    <Content Include="assets\img\meeting.jpg" />
+    <Content Include="assets\img\Pet Meds Logo.png" />
+    <Content Include="Customer Service Individual Message.aspx" />
+    <Content Include="DispensingMessage.aspx" />
+    <Content Include="DispensingMessages.aspx" />
+    <Content Include="Customer Service Messages.aspx" />
+    <Content Include="Customer Service View Requests.aspx" />
+    <Content Include="DispensingHome.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="Pet Meds Logo.png" />
+    <Content Include="Vet Place Order.aspx" />
+    <Content Include="Vet View Individual Message.aspx" />
+    <Content Include="Vet View Messages.aspx" />
     <Content Include="Web.config" />
-    <Content Include="Vet.aspx" />
-    <Content Include="CustomerService.aspx" />
-    <Content Include="Dispensing.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="messages.aspx.cs">
-      <DependentUpon>messages.aspx</DependentUpon>
+    <Compile Include="Customer Service Individual Message.aspx.cs">
+      <DependentUpon>Customer Service Individual Message.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="messages.aspx.designer.cs">
-      <DependentUpon>messages.aspx</DependentUpon>
+    <Compile Include="Customer Service Individual Message.aspx.designer.cs">
+      <DependentUpon>Customer Service Individual Message.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DispensingMessage.aspx.cs">
+      <DependentUpon>DispensingMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DispensingMessage.aspx.designer.cs">
+      <DependentUpon>DispensingMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DispensingMessages.aspx.cs">
+      <DependentUpon>DispensingMessages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DispensingMessages.aspx.designer.cs">
+      <DependentUpon>DispensingMessages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customer Service Messages.aspx.cs">
+      <DependentUpon>Customer Service Messages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customer Service Messages.aspx.designer.cs">
+      <DependentUpon>Customer Service Messages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customer Service View Requests.aspx.cs">
+      <DependentUpon>Customer Service View Requests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customer Service View Requests.aspx.designer.cs">
+      <DependentUpon>Customer Service View Requests.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DispensingHome.aspx.cs">
+      <DependentUpon>DispensingHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DispensingHome.aspx.designer.cs">
+      <DependentUpon>DispensingHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Site1.Master.cs">
-      <DependentUpon>Site1.Master</DependentUpon>
+    <Compile Include="Vet View Individual Message.aspx.cs">
+      <DependentUpon>Vet View Individual Message.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Site1.Master.designer.cs">
-      <DependentUpon>Site1.Master</DependentUpon>
+    <Compile Include="Vet View Individual Message.aspx.designer.cs">
+      <DependentUpon>Vet View Individual Message.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vet.aspx.cs">
-      <DependentUpon>Vet.aspx</DependentUpon>
+    <Compile Include="Vet View Messages.aspx.cs">
+      <DependentUpon>Vet View Messages.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vet.aspx.designer.cs">
-      <DependentUpon>Vet.aspx</DependentUpon>
+    <Compile Include="Vet View Messages.aspx.designer.cs">
+      <DependentUpon>Vet View Messages.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CustomerService.aspx.cs">
-      <DependentUpon>CustomerService.aspx</DependentUpon>
+    <Compile Include="PetMeds.Master.cs">
+      <DependentUpon>PetMeds.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CustomerService.aspx.designer.cs">
-      <DependentUpon>CustomerService.aspx</DependentUpon>
+    <Compile Include="PetMeds.Master.designer.cs">
+      <DependentUpon>PetMeds.Master</DependentUpon>
     </Compile>
-    <Compile Include="Dispensing.aspx.cs">
-      <DependentUpon>Dispensing.aspx</DependentUpon>
+    <Compile Include="Vet Place Order.aspx.cs">
+      <DependentUpon>Vet Place Order.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Dispensing.aspx.designer.cs">
-      <DependentUpon>Dispensing.aspx</DependentUpon>
+    <Compile Include="Vet Place Order.aspx.designer.cs">
+      <DependentUpon>Vet Place Order.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="Site1.Master" />
+    <Content Include="PetMeds.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

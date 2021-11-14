@@ -10,7 +10,7 @@
 
 namespace TechnicalHWExample
 {
-    public partial class WebForm3
+    public partial class Login
     {
     }
 }
