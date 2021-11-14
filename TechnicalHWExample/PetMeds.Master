@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PetMeds.Master.cs" Inherits="TechnicalHWExample.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Vet Place Order</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="text-center mw-50">
+            <nav class="navbar navbar-light navbar-expand-lg navigation-clean-button" style="background-color: #A9BE98;">
+                <div class="container">
+                    <a class="navbar-brand" href="Login.aspx">Pet Meds</a>
+                    <a style="color: black;" href="Vet Place Order.aspx">Veterinarian</a>
+                    <a style="color: black;" href="Customer Service View Requests.aspx">Customer Service</a>
+                    <a style="color: black;" href="DispensingHome.aspx">Dispensing</a>
+                </div>
+                                </ul><span class="navbar-text actions"><a class="login" href="#">Signed In</a><a class="btn btn-light action-button" role="button" href="#">Log Out</a></span>
+            </nav>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
